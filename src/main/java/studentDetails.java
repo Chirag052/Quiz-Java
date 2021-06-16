@@ -333,7 +333,7 @@ public class studentDetails extends javax.swing.JFrame {
         jTextArea1.setColumns(20);
         jTextArea1.setFont(new java.awt.Font("Monospaced", 1, 20)); // NOI18N
         jTextArea1.setRows(5);
-        jTextArea1.setText("Rules:-\n\n1.\n2.\n3.\n4.\n5.\n6.\n7.\n8.\n");
+        jTextArea1.setText("Online Quiz is managing all the activities related\nto examination managment right from receipt of\nEnrollment Forms and Examinations Forms through the\nprocessing of Results and Certificates and Grading\nreports.");
         jScrollPane1.setViewportView(jTextArea1);
 
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(653, 158, 639, 302));

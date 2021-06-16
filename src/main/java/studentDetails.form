@@ -595,7 +595,7 @@
               <Font name="Monospaced" size="20" style="1"/>
             </Property>
             <Property name="rows" type="int" value="5"/>
-            <Property name="text" type="java.lang.String" value="Rules:-&#xa;&#xa;1.&#xa;2.&#xa;3.&#xa;4.&#xa;5.&#xa;6.&#xa;7.&#xa;8.&#xa;"/>
+            <Property name="text" type="java.lang.String" value="Online Quiz is managing all the activities related&#xa;to examination managment right from receipt of&#xa;Enrollment Forms and Examinations Forms through the&#xa;processing of Results and Certificates and Grading&#xa;reports."/>
           </Properties>
         </Component>
       </SubComponents>

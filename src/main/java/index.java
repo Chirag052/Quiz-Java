@@ -73,7 +73,7 @@ public class index extends javax.swing.JFrame {
         });
         getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(1233, 24, -1, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\HP\\Downloads\\Qems Icon Jframe\\qems\\index background.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("F:\\AndroidProjects\\Quiz-Java\\Qems Icon Jframe\\qems\\laptop bg.png")); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1410, 770));
 
         pack();

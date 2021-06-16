@@ -41,9 +41,9 @@ public class loginAdmin extends javax.swing.JFrame {
         setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel1.setText("UserName");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1060, 230, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 150, -1, -1));
 
         jTextField1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
@@ -51,11 +51,11 @@ public class loginAdmin extends javax.swing.JFrame {
                 jTextField1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(975, 270, 250, -1));
+        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 150, 250, -1));
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel2.setText("Password");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1060, 310, -1, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 200, -1, -1));
 
         jPasswordField1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jPasswordField1.addActionListener(new java.awt.event.ActionListener() {
@@ -63,7 +63,7 @@ public class loginAdmin extends javax.swing.JFrame {
                 jPasswordField1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(975, 340, 250, -1));
+        getContentPane().add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 200, 250, -1));
 
         jCheckBox1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jCheckBox1.setText("Show Password");
@@ -72,7 +72,7 @@ public class loginAdmin extends javax.swing.JFrame {
                 jCheckBox1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 380, -1, -1));
+        getContentPane().add(jCheckBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 240, -1, -1));
 
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\HP\\Downloads\\Qems Icon Jframe\\qems\\login.png")); // NOI18N
@@ -82,7 +82,7 @@ public class loginAdmin extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 410, -1, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 290, -1, -1));
 
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\HP\\Downloads\\Qems Icon Jframe\\qems\\Back.png")); // NOI18N
@@ -92,11 +92,11 @@ public class loginAdmin extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1140, 410, -1, -1));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 290, -1, -1));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\HP\\Downloads\\Qems Icon Jframe\\qems\\login Background.PNG")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon("F:\\AndroidProjects\\Quiz-Java\\Qems Icon Jframe\\qems\\admin.png")); // NOI18N
         jLabel3.setText("jLabel3");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 20, -1, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -129,7 +129,7 @@ public class loginAdmin extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-         if(jTextField1.getText().equals("chirag") && jPasswordField1.getText().equals("admin"))
+         if(jTextField1.getText().equals("root") && jPasswordField1.getText().equals("admin"))
         {
             setVisible(false);
             new adminHome().setVisible(true);

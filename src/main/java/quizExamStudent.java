@@ -184,6 +184,7 @@ public class quizExamStudent extends javax.swing.JFrame {
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
@@ -210,179 +211,96 @@ public class quizExamStudent extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(102, 255, 204));
         jPanel1.setForeground(new java.awt.Color(102, 255, 204));
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\HP\\Downloads\\Qems Icon Jframe\\qems\\index student.png")); // NOI18N
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 11, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Algerian", 1, 50)); // NOI18N
         jLabel2.setText("WELCOME");
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(76, 11, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
-        jLabel3.setText("Date:");
+        jLabel3.setForeground(new java.awt.Color(255, 51, 51));
+        jLabel3.setText(":");
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(1300, 60, 10, -1));
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
         jLabel4.setText("jLabel4");
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 30, -1, -1));
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
         jLabel5.setText("Total Time:");
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(1130, 19, -1, -1));
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
         jLabel6.setText("10 Min");
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(1260, 19, -1, -1));
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
         jLabel7.setText("Time Taken:");
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(1130, 62, -1, -1));
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 0, 0));
         jLabel8.setText("00");
+        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(1271, 62, -1, -1));
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(255, 0, 0));
         jLabel9.setText("00");
+        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(1310, 60, -1, 30));
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel1)
-                .addGap(6, 6, 6)
-                .addComponent(jLabel2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 342, Short.MAX_VALUE)
-                .addComponent(jLabel3)
-                .addGap(29, 29, 29)
-                .addComponent(jLabel4)
-                .addGap(307, 307, 307)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel5)
-                        .addGap(18, 18, 18)
-                        .addComponent(jLabel6))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel7)
-                        .addGap(18, 18, 18)
-                        .addComponent(jLabel8)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel9)))
-                .addGap(37, 37, 37))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel1)
-                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(jLabel2)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jLabel3)
-                                    .addComponent(jLabel4)))))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(19, 19, 19)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel6)
-                            .addComponent(jLabel5))
-                        .addGap(18, 18, 18)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel7)
-                            .addComponent(jLabel8)
-                            .addComponent(jLabel9))))
-                .addGap(21, 21, 21))
-        );
+        jLabel22.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
+        jLabel22.setText("Date:");
+        jPanel1.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 30, -1, -1));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1370, -1));
 
         jPanel2.setBackground(new java.awt.Color(102, 255, 204));
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel10.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
         jLabel10.setText("Roll Number:");
+        jPanel2.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 22, -1, -1));
 
         jLabel11.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
         jLabel11.setText("10000");
+        jPanel2.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 20, -1, -1));
 
         jLabel12.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
         jLabel12.setText("Name:");
+        jPanel2.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(17, 65, -1, -1));
 
         jLabel13.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
         jLabel13.setText("Chirag");
+        jPanel2.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 70, -1, -1));
 
         jLabel14.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
         jLabel14.setText("Total Question:");
+        jPanel2.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 108, -1, -1));
 
         jLabel15.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
         jLabel15.setText("10");
+        jPanel2.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(225, 108, -1, -1));
 
         jLabel16.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
         jLabel16.setText("Question Number:");
+        jPanel2.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 151, -1, -1));
 
         jLabel17.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
         jLabel17.setText("00");
+        jPanel2.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(225, 151, -1, -1));
 
         jLabel18.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
         jLabel18.setText("Your Marks:");
+        jPanel2.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 194, -1, -1));
 
         jLabel19.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
         jLabel19.setText("00");
+        jPanel2.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(225, 194, -1, -1));
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jLabel10)
-                        .addGap(45, 45, 45)
-                        .addComponent(jLabel11))
-                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()
-                            .addComponent(jLabel18)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jLabel19))
-                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()
-                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(jLabel14)
-                                .addComponent(jLabel16))
-                            .addGap(32, 32, 32)
-                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(jLabel17)
-                                .addComponent(jLabel15)))
-                        .addGroup(jPanel2Layout.createSequentialGroup()
-                            .addComponent(jLabel12)
-                            .addGap(103, 103, 103)
-                            .addComponent(jLabel13))))
-                .addContainerGap(30, Short.MAX_VALUE))
-        );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(22, 22, 22)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel10)
-                    .addComponent(jLabel11))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel12)
-                    .addComponent(jLabel13))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel14)
-                    .addComponent(jLabel15))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel17)
-                    .addComponent(jLabel16))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel18)
-                    .addComponent(jLabel19))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 100, -1, 670));
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 80, 280, 700));
 
         jLabel20.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
         jLabel20.setText("Question Demo");
@@ -395,7 +313,7 @@ public class quizExamStudent extends javax.swing.JFrame {
                 jRadioButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jRadioButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 240, -1, -1));
+        getContentPane().add(jRadioButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 220, -1, -1));
 
         jRadioButton2.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
         jRadioButton2.setText("jRadioButton2");
@@ -404,7 +322,7 @@ public class quizExamStudent extends javax.swing.JFrame {
                 jRadioButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jRadioButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 320, -1, -1));
+        getContentPane().add(jRadioButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 290, -1, -1));
 
         jRadioButton3.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
         jRadioButton3.setText("jRadioButton3");
@@ -413,7 +331,7 @@ public class quizExamStudent extends javax.swing.JFrame {
                 jRadioButton3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jRadioButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 390, -1, -1));
+        getContentPane().add(jRadioButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 360, -1, -1));
 
         jRadioButton4.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
         jRadioButton4.setText("jRadioButton4");
@@ -422,7 +340,7 @@ public class quizExamStudent extends javax.swing.JFrame {
                 jRadioButton4ActionPerformed(evt);
             }
         });
-        getContentPane().add(jRadioButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 470, -1, -1));
+        getContentPane().add(jRadioButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 430, -1, -1));
 
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
         jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\HP\\Downloads\\Qems Icon Jframe\\qems\\Next.png")); // NOI18N
@@ -557,6 +475,7 @@ public class quizExamStudent extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
